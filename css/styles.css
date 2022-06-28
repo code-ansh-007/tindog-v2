@@ -1,0 +1,187 @@
+#title{
+    background-color: #ff4c68;
+    /* word-wrap: break-word; */
+}
+
+.container-fluid{
+    padding: 2% 15%;
+    padding-bottom: 100px;
+    /* height: 470px; */
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.nav-link{
+    padding-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ft-set{
+    text-align: center;
+    padding:2%;
+}
+
+.ft-set i{
+    color:#ff4c68;
+    font-size: 80px;
+    padding-bottom: 0.75rem;
+    padding-top: 1rem;
+}
+
+.ft-set i:hover{
+    color: #ea8695;
+}
+
+.play{
+    margin-left: 10px;
+}
+
+.col-lg-6 h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.navbar-brand{
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* .iphone-dog{
+    bottom: 30px;
+    width: 60%;
+    transform: rotate(35deg);
+    z-index: 1;
+} */
+
+.iphone-dog{
+    /* position:static; */
+    width: 22%;
+    transform: rotate(30deg);
+    /* z-index: -1; */
+    position: absolute;
+    top: 22%;
+    left: 52%;
+    /* z-index: 1; */
+    /* object-fit: contain; */
+}
+
+#features{
+    /* position: relative; */
+    background-color: white;
+    /* z-index: 2; */
+    /* height: 600px; */
+    padding: 12% 0 12% 0;
+    position: relative;
+    /* z-index: 1; */
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.testimonial-image{
+    border-radius: 100%;
+    width: 10%; 
+    margin: 20px;
+}
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.press-img{
+    width: 150px;
+    margin: 0 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.pricing-title{
+    padding: 5% 15% 0 15%;
+}
+
+.pricing-title-p{
+    padding-left: 15%;
+    padding-bottom: 5%;
+}
+
+.pricing-cards{
+    padding: 0 15% 5% 15%;
+}
+
+.signup-btn{
+    background-color: #ff4c68;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+}
+
+.dog-name{
+    background-color: #ff4c68;
+}
+
+#cta{
+    background-color:#ff4c68 ;
+}
+
+#cta h2{
+    padding: 5% 0 0 15%;
+    color: white;
+}
+
+.last-download-buttons{
+    padding-left: 15%;
+    padding-bottom: 5%;
+}
+
+.head-title-text{
+    overflow-wrap: break-word;
+}
+
+@media (max-width: 1028px){
+
+    .iphone-dog{
+        position: static;
+        padding-top: 7%;
+        transform: rotate(0);
+    }
+
+    #title{
+        text-align: center;
+        /* padding-bottom: 0 ; */
+        /* word-wrap: break-word; */
+    }
+
+    .container-fluid{
+        padding-bottom: 5%;
+    }
+
+    .phone-padding{
+        padding: 3% 9%;
+    }
+}
+
+#footer{
+    text-align: center;
+    background-color: rgb(224, 215, 215);
+    padding: 15px;
+}
